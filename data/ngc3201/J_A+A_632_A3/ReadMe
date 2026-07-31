@@ -1,0 +1,148 @@
+J/A+A/632/A3        MUSE binaries in NGC 3201                   (Giesers+, 2019)
+================================================================================
+A stellar census in globular clusters with MUSE: Binaries in NGC 3201.
+    Giesers B., Kamann, S., Dreizler S., Husser T.-O., Askar A., Goettgens F.,
+    Brinchmann J., Latour M., Weilbacher P.M., Wendt M., Roth M.M.
+    <Astron. Astrophys. 632, A3 (2019)>
+    =2019A&A...632A...3G        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Clusters, globular ; Stars, double and multiple ;
+              Radial velocities
+Keywords: binaries: general - blue stragglers - stars: black holes -
+          techniques: radial velocities - techniques: imaging spectroscopy -
+          globular clusters: individual: NGC 3201
+
+Abstract:
+    We utilize multi-epoch MUSE spectroscopy to study binaries in the core
+    of NGC 3201. Our sample consists of 3553 stars with 54883 spectra in
+    total comprising 3200 main-sequence stars up to 4 magnitudes below the
+    turn-off. Each star in our sample has between 3 and 63 (with a median
+    of 14) reliable radial velocity (RV) measurements within five years of
+    observations. We introduce a statistical method to determine the
+    probability of a star showing RV variations based on the whole
+    inhomogeneous RV sample. Using HST photometry and an advanced
+    dynamical MOCCA simulation of this specific GC we overcome
+    observational biases that previous spectroscopic studies had to deal
+    with. This allows us to infer a binary frequency in the MUSE FoV and
+    enables us to deduce the underlying true binary frequency of
+    (6.75+/-0.72)% in NGC 3201. The comparison of the MUSE observations
+    with the MOCCA simulation suggests a significant fraction of
+    primordial binaries. We can also confirm a radial increase of the
+    binary fraction towards the GC centre due to mass segregation. We
+    discovered that in our sample at least (57.5+/-7.9)% of blue straggler
+    stars (BSS) are in a binary system. For the first time in a study of
+    GCs, we were able to fit Keplerian orbits to a significant sample of
+    95 binaries. We present the binary system properties of eleven BSS and
+    show evidence that two BSS formation scenarios, the mass transfer in
+    binary (or triple) star systems and the coalescence due to
+    binary-binary interactions, are present in our data. We also describe
+    the binary and spectroscopic properties of four sub-subgiant (or red
+    straggler) stars. Furthermore, we discovered two new black hole (BH)
+    candidates with minimum masses (Msini) of (7.68+/-0.50)M_{sun}_,
+    (4.4+/-2.8)M_{sun}_, and refine the minimum mass estimate on the
+    already published BH to (4.53+/-0.21)M_{sun}_. These BHs are
+    consistent with an extensive BH subsystem hosted by NGC 3201.
+
+Description:
+    Since 2014, 27 Galactic globular clusters were observed (PI: S.
+    Kamann, formerly S. Dreizler) with the integral field spectrograph
+    Multi Unit Spectroscopic Explorer (MUSE) at the Very Large Telescope
+    (VLT; Kamann et al. 2018MNRAS.473.5591K). In the wide field mode, MUSE
+    covers a 1'x1' field of view (FoV) with a spatial sampling of 0.2" and
+    a spectral sampling of 1.25{AA} (resolving power of 1770<R<3590) in
+    the wavelength range from 4750 to 9350{AA}. MUSE allows to extract
+    spectra of some thousand stars per exposure. For this paper, all
+    observations of NGC 3201 obtained before May 2019 were used. In
+    addition to the pointings listed in Kamann et al.
+    (2018MNRAS.473.5591K), a deep field was also implemented. Table 1
+    lists the number of visits and total integration times for the
+    different pointings. The data include adaptive optics (AO)
+    observations, the standard observing mode since the AO system was
+    commissioned in October 2017. The AO observations are treated in the
+    same way as our previous observations.The only difference is that a
+    wavelength window of each spectrum around the sodium lines
+    (5805{AA}-5965{AA}) has to be masked due to the AO laser emission. The
+    catalogue includes the full radial velocity sample obtained from 63
+    MUSE observations done for different pointings in NGC 3201 and the
+    orbital parameters of the 95 well constrained binaries in NGC 3201.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+list.dat          34     3593   List of stars with radial velocity measurements
+tablea1r.dat      69      199   Radial velocities of RR Lyr and SXP stars
+                                 (for 13 stars)
+tablea1m.dat      69    54684   Radial velocities of NGC 3201 members
+                                 (for 3540 stars)
+tablea1n.dat      69      444   Radial velocities of NGC 3201 nonmembers
+                                 (for 40 stars)
+tablea2.dat      119       95   Orbital parameters of binaries
+--------------------------------------------------------------------------------
+
+See also:
+   J/AJ/133/1658 : ACS survey of galactic globular clusters (Sarajedini+, 2007)
+
+Byte-by-byte Description of file: list.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+       1  A1    ---     Type      [rmn] Type of star (1)
+   3-  7  I05   ---     ACS       The identifier in the NGC 3201 ACS catalogue
+   9- 19  F11.7 deg     RAdeg     Right ascension of star (J2000)
+  21- 31  F11.7 deg     DEdeg     Declination of star (J2000)
+  33- 34  I2    ---     Nobs      Number of observed radial velocities in
+                                   corresponding table A1
+--------------------------------------------------------------------------------
+Note (1): Type of star as follows:
+           r = RR Lyr and SXP stars (RV in tablea1r.dat)
+           m = NGC 3201 members (RV in tablea1m.dat)
+           n = NGC 3201 nonmembers (RV in tablea1n.dat)
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea1m.dat tablea1n.dat tablea1r.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  I05   ---     ACS       The identifier in the NGC 3201 ACS catalogue
+   7- 17  F11.7 deg     RAdeg     Right ascension of star (J2000)
+  19- 29  F11.7 deg     DEdeg     Declination of star (J2000)
+  31- 36  F6.3  mag     F606Wmag  ACS F606W magnitude of star
+  38- 53  F16.8 d       Date      Mean observation date of the combined
+                                   exposures, BJD (Barycentric Julian Date)
+  55- 59  F5.1  km/s    BRV       Barycentric corrected radial velocity of
+                                   spectrum
+  61- 64  F4.1  km/s  e_BRV       Radial velocity uncertainty
+  66- 69  F4.2  ---     Pvar      Probability that star is a binary
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: tablea2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  I05   ---     ACS       The identifier in the NGC 3201 ACS catalogue
+   7- 17  F11.7 deg     RAdeg     Right ascension of star (J2000)
+  19- 29  F11.7 deg     DEdeg     Declination of star (J2000)
+  31- 42  F12.7 d       Per       Orbital period of binary system
+  44- 55  F12.7 d     e_Per       Uncertainty of period
+  57- 60  F4.2  ---     Ecc       Eccentricity of binary system
+  62- 65  F4.2  ---   e_Ecc       Uncertainty of eccentricity
+  67- 72  F6.2  km/s    Amp       Semi-amplitude of the visible component
+  74- 78  F5.2  km/s  e_Amp       Uncertainty of semi-amplitude
+  80- 83  F4.2  Msun    Mvis      Mass of visible component
+  85- 88  F4.2  Msun  e_Mvis      Uncertainty of mass of visible component
+  90- 93  F4.2  Msun    Minvis    Mass of invisible component
+  95- 98  F4.2  Msun  e_Minvis    Uncertainty of mass of invisible component
+ 100-119  A20   ---     Com       Comments
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Benjamin Giesers, giesers(at)gwdg.de
+
+References:
+ Sarajedini et al., 2007AJ....133.1658S
+     ACS survey of galactic globular clusters, Cat. J/AJ/133/1658
+
+================================================================================
+(End)                                        Patricia Vannier [CDS]  25-Sep-2019
