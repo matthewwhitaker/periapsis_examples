@@ -1,0 +1,55 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-25T15:05:03 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-25T15:05:03	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-oc.form=dec&-out.max=unlimited&-order=I&-out.src=J/A+A/686/L2/tableb2&-source=J/A+A/686/L2/tableb2&-out=TransitID&-out=ObsTime&-out=RV&-out=e_RV&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_36869002
+#Name: J/A+A/686/L2
+#Title: Dormant 33 solar-masses black hole (Gaia Collaboration, 2024)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/686/l2	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/a+a/686/l2	    IVOID of underlying data collection
+#INFO	creator=Gaia Collaboration	    First author or institution
+#INFO	cites=bibcode:2024A&A...686L...2G	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2024	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/686/L2	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.36869002	    Dataset identifier that can be used for citation
+#INFO	publication_date=2025-01-09	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_A_A_686_L2_tableb2:
+#Name: J/A+A/686/L2/tableb2
+#Title: Epoch radial velocities for Gaia BH3
+#Column	TransitID	(I18)	Unique identifier of the observation (transit_id) (G1)	[ucd=meta.id;obs.param;obs]
+#Column	ObsTime	(F14.6)	Julian date (TCB) of the observation (obs_time_tcb) (G3)	[ucd=time.epoch;obs]
+#Column	RV	(F7.2)	Radial velocity measurement (radial_velocity) (G9)	[ucd=phys.veloc;pos.heliocentric]
+#Column	e_RV	(F5.2)	Formal error on the radial velocity (radial_velocity_err)	[ucd=stat.error]
+TransitID	ObsTime	RV	e_RV
+ 	d	km/s	km/s
+------------------	--------------	-------	-----
+ 22989619581449144	2457010.096166	-338.62	 1.42
+ 22993711812243969	2457010.170169	-341.08	 1.70
+ 27565894819405940	2457092.856649	-338.73	 1.41
+ 27569987068420645	2457092.930660	-340.63	 1.43
+ 29624665178404300	2457130.091203	-335.28	 2.20
+ 37997278005744779	2457281.508798	-330.88	 1.24
+ 52687653750370648	2457547.177378	-320.11	 1.61
+ 60072325242450363	2457680.722202	-319.09	 1.87
+ 61702852954182073	2457710.207118	-315.11	 1.12
+ 68202800816349412	2457827.754668	-305.82	 1.53
+ 81052816639971536	2458060.142534	-290.29	 1.42
+ 82486181452083612	2458086.062277	-294.93	 1.53
+ 82490273693622584	2458086.136278	-294.67	 1.75
+100312802889225719	2458408.450948	-404.70	 1.14
+111669627072959442	2458613.834346	-399.65	 1.21
+112765863248582085	2458633.660613	-398.97	 1.10
+121996985218154856	2458800.596176	-393.59	 2.00
+
